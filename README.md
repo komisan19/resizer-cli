@@ -1,2 +1,2 @@
-## resizer
-* resize for image api server
+## resizer-cli
+* resize for image cli
