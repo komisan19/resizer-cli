@@ -1,4 +1,4 @@
-module github.com/komisan19/resizer
+module github.com/komisan19/resizer-cli
 
 go 1.16
 
