@@ -23,7 +23,7 @@ func (e *Extension) CreatePath()string {
 	if err != nil {
 		fmt.Println(err)
 	}
-  newPath := uu.String() + e.extension
+  newPath := uu.String() + "." + e.extension
 	return newPath
 }
 
@@ -39,7 +39,7 @@ func main() {
   if err != nil {
       log.Fatal(err)
   }
-  m := resize.Resize(1000, 0, img, resize.Lanczos3)
+  m := resize.Resize(100, 0, img, resize.Lanczos3)
   switch data {
   case "png":
     extension := &Extension{"png"}
